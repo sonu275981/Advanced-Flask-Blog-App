@@ -1,0 +1,19 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/codinglegend",
+    "prod_uri": "mysql://root:@localhost/codinglegend",
+    "fb_url": "https://www.facebook.com/sonu.chaurasia2",
+    "tw_url":"https://twitter.com",
+    "git_url":"https://github.com/",
+    "blog_name":"Coding Legend",
+    "sub_heading": "A Blog by The Coding Legend",
+    "gmail-user": "xyz123@gmail.com",
+    "gmail-password": "55419024425"
+  }
+
+
+
+
+}
