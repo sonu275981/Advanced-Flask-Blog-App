@@ -10,7 +10,13 @@
     "blog_name":"Coding Legend",
     "sub_heading": "A Blog by The Coding Legend",
     "gmail-user": "xyz123@gmail.com",
-    "gmail-password": "55419024425"
+    "gmail-password": "55419024425",
+    "about_text": "Hiii im sonu. and im a good boy ",
+    "no_of_posts": 2,
+    "login_image":"login.svg",
+    "admin_user": "sonu",
+    "admin_password": "admin",
+    "upload_location": "C:\\Users\\HCL\\PycharmProjects\\Flask-project\\static"
   }
 
 
