@@ -1,10 +1,9 @@
 {% extends "layout.html" %}
-
 {% block body %}
   <!-- Page Header -->
   <header class="masthead" style="background-image: url(' {{ url_for('static', filename=  'img/home-bg.jpg') }} ')">
     <div class="overlay"></div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
@@ -15,45 +14,39 @@
       </div>
     </div>
   </header>
-
   <!-- Main Content -->
-  <div class="container">
-    <div class="row">
+  <div class="container-fluid">
+   <div class="row">
+    
       <div class="col-lg-8 col-md-10 mx-auto">
-
         <!-- fetch it using for loop from the database -->
-
         {% for post in posts %}
           <div class="post-preview">
             <a href="/post/{{post.slug}}">
               <h2 class="post-title">{{ post.title }}
-
               </h2>
               <h3 class="post-subtitle">
-                {{post.tagline}}
+              {{post.tagline}}
               </h3>
             </a>
             <p class="post-meta">Posted by
               <a href="#">{{params['blog_name']}}</a>
-              on {{post.date}}</p>
+            on {{post.date}}</p>
           </div>
-
           {{post.content[0:200]}}...
           <hr>
-</li></a>
-          {% endfor %}
-
-       
-        <!-- Pager -->
-        <div class="clearfix">
-          {%if number!=0 %}
-          <a class="btn btn-primary float-right" href="{{prev}}">Older Posts &rarr;</a>
-          {%endif%}
+        </li></a>
+      {% endfor %}
+     
+      <!-- Pager -->
+      <div class="clearfix ">
+        {%if number!=0 %}
+        <a class="btn btn-primary float-right " href="{{next}}">Older Posts &rarr;</a>
+        {%endif%}
         
-          <a class="btn btn-primary float-left" href="{{next}}">Newer Posts &larr;</a>
-        </div>
-      </div>
+        <a class="btn btn-primary float-left " href="{{prev}}">Newer Posts &larr;</a>
+       </div>
     </div>
   </div>
-   {% endblock %}
- 
+</div>
+{% endblock %}

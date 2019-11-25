@@ -16,7 +16,7 @@
     "login_image":"login.svg",
     "admin_user": "sonu",
     "admin_password": "admin",
-    "upload_location": "C:\\Users\\HCL\\PycharmProjects\\Flask-project\\static"
+    "upload_location": "C:\\Users\\HCL\\PycharmProjects\\Flask-project\\static\\img"
   }
 
 
