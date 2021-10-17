@@ -59,3 +59,5 @@ Follow other users
 Personalised feeds
 
 OAuth Authentication
+
+Payment getway
