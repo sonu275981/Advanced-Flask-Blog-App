@@ -1,5 +1,6 @@
 theBlog
 About
+
 A simple Advanced multi-user blogging application.
 
 Made using Bootstrap for frontend and Flask for backend.
@@ -21,6 +22,7 @@ Install python 2.x, git and virtualenv in your computer.
 Create a python virtual environment and install python and flask related dependencies.
 
 cd theBlog
+
 virtualenv -p python.exe venv # create virtual env
 venv\scripts\activate  # run this command everytime before starting on the project
 pip install -r requirements.txt
